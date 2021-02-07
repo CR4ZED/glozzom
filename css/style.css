@@ -1,0 +1,136 @@
+.nav-link {
+  text-transform: capitalize;
+}
+.slider {
+  position: relative;
+}
+.carousel-item {
+  height: 450px;
+}
+
+.slide1 {
+  background: url("../img/slide1.jpg") no-repeat center center/cover;
+}
+.slide2 {
+  background: url("../img/slide2.jpg") no-repeat center center/cover;
+}
+.slide3 {
+  background: url("../img/slide3.jpg") no-repeat center center/cover;
+}
+.slider:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.content {
+  position: relative;
+  padding: 5em;
+}
+.start {
+  background: url("../img/start.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.start::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.start > .container {
+  position: relative;
+}
+.work {
+  background: url("../img/work.jpg") no-repeat center center/cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.work::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.work > .container {
+  position: relative;
+}
+.modal-toggle {
+  cursor: pointer;
+}
+
+.gallery img {
+  object-fit: cover;
+  width: 100%;
+  height: 400px;
+}
+footer {
+  background: black;
+  color: white;
+}
+
+.about-video {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+.about-video-overlay {
+  position: absolute;
+  width: 100%;
+  height: 180px;
+  background: rgba(29, 22, 128, 0.644);
+}
+.about-header .container {
+  height: 180px;
+  position: relative;
+}
+.testimonials .slide::before {
+  background: none;
+}
+.testimonials blockquote {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.testimonials .carousel-item {
+  height: auto !important;
+}
+.faq .accordion-item {
+  background: white !important;
+}
+/* blog */
+.blog-header .blog-1 {
+  background: url("../img/blog/blog1.jpg") no-repeat center center/cover;
+}
+.blog-header .blog-2 {
+  background: url("../img/blog/blog2.jpg") no-repeat center center/cover;
+}
+.blog-header .blog-3 {
+  background: url("../img/blog/blog3.jpg") no-repeat center center/cover;
+}
+.card img {
+  height: 250px;
+  object-fit: cover;
+}
+.card {
+  height: 100% !important;
+}
+/* contact */
+.contact {
+  min-height: 80vh;
+}
+.contact .input-group {
+  margin: 1em 0;
+}
+.contact .row {
+  min-height: 80vh;
+  align-items: center;
+}
